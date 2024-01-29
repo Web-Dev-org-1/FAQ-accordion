@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-size: contain; /* Adjust the background size */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(275, 100%, 97%);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+}
+.sec-Question{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.sec-Question :hover{
+    color: hsl(291, 79%, 50%);
+}
+.sec-Question h1{
+    font-size: 20px;
+    font-weight: 00;
+    padding: 10px;
+}
+.sec-Question img{
+    align-self: left;
+    margin-left: auto;
+}
+#ans1{
+    /* padding: 15px; */
+    display: none;
+}
+#ans2{
+    display: none;
+}
+#ans3{
+    display: none;
+}
+#ans4{
+    display: none;
+}
+.faq{
+    margin-top: 30vh;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 30vw;
+    border-radius: 15px;
+}
+.faqHead{
+    display: flex;
+    flex-direction: row;
+    /* padding-right: 20px; */
+    font-size: 20px;
+}
+.faqHead h1{
+    font-weight: 600;
+    margin-left: 1vw;
+}
+.sec1 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(292, 42%, 14%);
+}
+.sec2 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(292, 42%, 14%);
+}
+.sec3 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(292, 42%, 14%);
+}
+.sec4 p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: hsl(292, 42%, 14%);
+}
